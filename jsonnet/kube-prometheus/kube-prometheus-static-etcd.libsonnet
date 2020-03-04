@@ -4,9 +4,9 @@ local k = import 'ksonnet/ksonnet.beta.4/k.libsonnet';
   _config+:: {
     etcd: {
       ips: [],
-      clientCA: null,
-      clientKey: null,
-      clientCert: null,
+      clientCA: '',
+      clientKey: '',
+      clientCert: '',
       serverName: null,
       insecureSkipVerify: null,
     },
